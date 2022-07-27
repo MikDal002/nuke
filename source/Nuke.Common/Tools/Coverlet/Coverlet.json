@@ -66,6 +66,12 @@
             "help": "Filter expressions to exclude specific modules and types."
           },
           {
+            "name": "ExcludeAttributes",
+            "type": "List<string>",
+            "format": "--exclude-by-attribute {value}",
+            "help": "Attributes to exclude from code coverage."
+          },
+          {
             "name": "Include",
             "type": "List<string>",
             "format": "--include {value}",
